@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 typst = { git = "https://github.com/typst/typst.git", tag = "v0.9.0" }
+actix-web = "4"
