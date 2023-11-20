@@ -7,4 +7,10 @@ edition = "2021"
 
 [dependencies]
 typst = { git = "https://github.com/typst/typst.git", tag = "v0.9.0" }
+typst-library = { git = "https://github.com/typst/typst.git", tag = "v0.9.0" }
+actix-multipart = "0.6.1"
 actix-web = "4"
+fontdb = "0.16.0"
+comemo = "0.3"
+chrono = { version = "0.4.24", default-features = false, features = ["clock", "std"] }
+futures-util = "0.3.29"
